@@ -9,3 +9,20 @@
         "start" : "nodemon index.js",
     + Thêm --inspect  : "start" : "nodemon --inspect index.js" 
         để inspect và debug
+8. Init respo git
+9. Install morgan : Giúp log http request, tìm ra lỗi dễ hơn
+    + npm i morgan --save-dev
+
+10. Template engines : Viết ra mã để trang web hiển thị một cách gọn gàng hơn
+    + npm install express-handlebars
+11. Config file tĩnh
+    + app.use(express.static(path.join(__dirname, 'public')));
+12. Install NODE-SCSS
+    + npm install node-sass
+13. config scss compile to css (in package.json)
+    + "watch":"node-sass -w src/public/resources/scss/app.scss src/public/css/app.css",
+14. Run test compile scss to css
+    + npm run watch
+15. Create nodemon.json to listen file change
+16. 
+
