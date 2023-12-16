@@ -1,0 +1,11 @@
+1. npm init
+2. npm install -g npm@7.24.0
+3. npm i express
+4. node index.js (run test)
+5. npm install -g nodemon
+6. npm install --save-dev nodemon
+7. (Nodemon giúp lắng nghe sự thay đổi file trên source code để cập nhật lại web)
+    + Thêm start vào script in package.json
+        "start" : "nodemon index.js",
+    + Thêm --inspect  : "start" : "nodemon --inspect index.js" 
+        để inspect và debug
